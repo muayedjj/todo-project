@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  
+  * {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    transition: 0.3s linear;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+body {
+    border-style: double;
+    border-color: black;
+    background-color: rgb(255, 239, 196);
+    color: rgba(117, 58, 0, 0.553);
+    align-items: center;
+    font-size: 1rem;
+    margin: 0.1rem;
+
+}
+
+div {
+    font-style: unset;
+    font-weight: 500 ;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(174, 103, 31, 0.553);
+    padding: 10px;
+    border: 2px solid rgb(113, 85, 0);
+}
+img{
+    height: 10rem; width: 10rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    background-color: rgba(125, 98, 16, 0.154);
+}
+nav {
+    border: 1rem;
+    border-color: black;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    background-color: rgba(125, 98, 16, 0.154);
+    color: rgb(148, 121, 39);
+    border-bottom: 1rem;
+    display: flex;
+    padding: 1.5rem 7%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 3rem;
+    right: 10rem;
+    left: 10.5rem;
+    z-index: 1000;
+}
+table, th, td {
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid rgb(113, 85, 0);
+}
+main {
+    left: 10.5rem;
+}
+.personal {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.name {
+text-align: center;
+}
+h2 {
+    text-decoration: underline;
+}
+
+form {
+justify-self: center;
+position: relative;
+align-self: center;    
+align-content: center;
+width: 25rem;
+}
+
+h6 {
+    text-align: end;
+}
