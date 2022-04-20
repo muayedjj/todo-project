@@ -25,11 +25,12 @@ else if (userage > 0) {
         alert ("Welcome Mr. "+username);}
 
         if (gender === 'female') {
-        alert ("Welcome Ms. "+username);
-}
+        alert ("Welcome Ms. "+username);}
+
     else if (welcoming_message == 'Y'  || welcoming_message == 'y') {
     alert( "As you wish" );
 }    
+    }
 /*
 }
 if (gender === 'male') {
@@ -63,4 +64,4 @@ else {
     }
     break;
 } 
-*/}
+*/
