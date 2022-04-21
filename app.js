@@ -30,40 +30,12 @@ else if (userage > 0) {
     else if (welcoming_message == 'Y'  || welcoming_message == 'y') {
         alert ("As you wish");}    
 
-/*
-}
-if (gender === 'male') {
-    alert ("Welcome Mr"+username)
-}
-else if (gender === 'female') {
-    alert ("Welcome Ms"+username)
+ var yes_no_qs = ["", "" , ""];
+ while  (yes_no_qs[0] === "" && yes_no_qs[1] === "" &&yes_no_qs[2] === "" ) {
+     yes_no_qs = [prompt ("Are you happy?"),prompt ("Do you like coding?"),prompt ("Do you mind helping?")];
+     var ans = "Invalid"
+     alert (ans)}
 
-}
-else {
-
-}
-*/
-/*switch (welcoming_message) {
-    case "Y"
-    :break;
-    case "N"
-    :if (userage <= 0) {
-    var userage = prompt ("That's not possible! "+username+", how old are you again");
-}
-    else if (gender === 'male') {
-        
-        alert ("Welcome Mr. "+username);
-    }
-    else if (gender === 'female') {
-
-        alert ("Welcome Ms. "+username);
-    }
-    else {
-        var gender = prompt("Please input your gender again; male or female?");
-    }
-    break;
-
-}
-Check later
- 
-*/
+ for (let i = 0; i < yes_no_qs.length; i++) {
+ console.log(yes_no_qs[i]);
+ }
